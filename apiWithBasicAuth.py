@@ -33,7 +33,7 @@ def base64encode(tokenString):
         return finalToken
 
 
-tokenString = getToken('sagardubey','8050321056-sagardubey')
+tokenString = getToken('username','token')
 
 base64encode(tokenString)
 
