@@ -1,15 +1,15 @@
 """This is a max values report """
 
-import darbyAuth    # Custom module for Darby authentication
-import requests
-import datetime
-import pytz
-import json
-import re
-import csv
-import time
-import threading
 import concurrent.futures
+import csv
+import darbyAuth    # Custom module for Darby authentication
+import datetime
+import json
+import pytz
+import re
+import requests
+import threading
+import time
 
 # Threading implementation
 thread_local = threading.local()
