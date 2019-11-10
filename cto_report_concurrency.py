@@ -1,4 +1,4 @@
-"""This is a max values report for AL."""
+"""This is a max values report """
 
 import darbyAuth    # Custom module for Darby authentication
 import requests
@@ -29,7 +29,7 @@ groupsPath = '/vehicles/groupId/'
 groupUrlAttributes = '?page=0&pagelimit=200&attributes=vehicleId,vehicleName'
 
 # Authentication
-darbyToken = darbyAuth.getDarbyToken('alApiUser','1234567890-alApiUser')
+darbyToken = darbyAuth.getDarbyToken('*','*')
 print(f'Authenticated.\nYour token is: {darbyToken}\n\n')
 
 headers = {}
